@@ -13,6 +13,8 @@
 		D8DEAB3E1A890E3000E1EE69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DEAB3D1A890E3000E1EE69 /* Images.xcassets */; };
 		D8DEAB411A890E3000E1EE69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8DEAB3F1A890E3000E1EE69 /* LaunchScreen.xib */; };
 		D8DEAB4D1A890E3100E1EE69 /* HospitalMapATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEAB4C1A890E3100E1EE69 /* HospitalMapATests.swift */; };
+		D8DEAB571A890E3B00E1EE69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DEAB561A890E3B00E1EE69 /* MapKit.framework */; };
+		D8DEAB591A8910B500E1EE69 /* mapnavoskdat_iryou.csv in Resources */ = {isa = PBXBuildFile; fileRef = D8DEAB581A8910B500E1EE69 /* mapnavoskdat_iryou.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D8DEAB461A890E3100E1EE69 /* HospitalMapATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalMapATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DEAB4B1A890E3100E1EE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8DEAB4C1A890E3100E1EE69 /* HospitalMapATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalMapATests.swift; sourceTree = "<group>"; };
+		D8DEAB561A890E3B00E1EE69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D8DEAB581A8910B500E1EE69 /* mapnavoskdat_iryou.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapnavoskdat_iryou.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DEAB571A890E3B00E1EE69 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		D8DEAB281A890E3000E1EE69 = {
 			isa = PBXGroup;
 			children = (
+				D8DEAB561A890E3B00E1EE69 /* MapKit.framework */,
 				D8DEAB331A890E3000E1EE69 /* HospitalMapA */,
 				D8DEAB491A890E3100E1EE69 /* HospitalMapATests */,
 				D8DEAB321A890E3000E1EE69 /* Products */,
@@ -78,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				D8DEAB361A890E3000E1EE69 /* AppDelegate.swift */,
+				D8DEAB581A8910B500E1EE69 /* mapnavoskdat_iryou.csv */,
 				D8DEAB381A890E3000E1EE69 /* ViewController.swift */,
 				D8DEAB3A1A890E3000E1EE69 /* Main.storyboard */,
 				D8DEAB3D1A890E3000E1EE69 /* Images.xcassets */,
@@ -192,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DEAB591A8910B500E1EE69 /* mapnavoskdat_iryou.csv in Resources */,
 				D8DEAB3C1A890E3000E1EE69 /* Main.storyboard in Resources */,
 				D8DEAB411A890E3000E1EE69 /* LaunchScreen.xib in Resources */,
 				D8DEAB3E1A890E3000E1EE69 /* Images.xcassets in Resources */,
